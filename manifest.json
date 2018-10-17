@@ -3,15 +3,15 @@
   "short_name": "restaurant",
   "description": "Give reviews of restaurants in an area",
   "lang": "en-US",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/restaurant-review-app/",
+  "scope": "/restaurant-review-app/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#7b551d",
   "background_color": "#f3f3f3",
      "serviceworker": {
-        "src": "/sw.js",
-        "scope": "/",
+        "src": "/restaurant-review-app/sw.js",
+        "scope": "/restaurant-review-app/",
         "update_via_cache": "none"
     },
 }

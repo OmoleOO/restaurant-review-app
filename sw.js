@@ -7,9 +7,9 @@ let year = new Date().getFullYear();
 const cacheName = 'restaurant-app-v1';
 
 const cacheAssets = [
-    '/',
-    '/index.html',
-    '/restaurant.html', 
+    '/restaurant-review-app/',
+    '/restaurant-review-app/index.html',
+    '/restaurant-review-app/restaurant.html', 
     '/restaurant-review-app/img/1.jpg',
     '/restaurant-review-app/img/2.jpg',
     '/restaurant-review-app/img/3.jpg',
@@ -20,14 +20,14 @@ const cacheAssets = [
     '/restaurant-review-app/img/8.jpg',
     '/restaurant-review-app/img/9.jpg',
     '/restaurant-review-app/img/10.jpg',
-    '/js/dbhelper.js',
-    '/js/main.js',
-    '/js/restaurant_info.js',
-    '/css/styles.css',
+    '/restaurant-review-app/js/dbhelper.js',
+    '/restaurant-review-app/js/main.js',
+    '/restaurant-review-app/js/restaurant_info.js',
+    '/restaurant-review-app/css/styles.css',
     'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js', 
     'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
-    '/data/restaurants.json',
-    '/manifest.json'
+    '/restaurant-review-app/data/restaurants.json',
+    '/restaurant-review-app/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
