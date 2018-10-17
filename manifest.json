@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-review-app",
+  "short_name": "restaurant",
+  "description": "Give reviews of restaurants in an area",
+  "lang": "en-US",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#7b551d",
+  "background_color": "#f3f3f3",
+     "serviceworker": {
+        "src": "/sw.js",
+        "scope": "/",
+        "update_via_cache": "none"
+    },
+}
